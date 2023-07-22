@@ -3,7 +3,7 @@ from sqlalchemy import Column, String, Integer, create_engine
 from flask_sqlalchemy import SQLAlchemy
 import json
 
-database_path = os.getenv('DB_PATCH')
+database_path = os.getenv('DB_PATH')
 
 db = SQLAlchemy()
 
